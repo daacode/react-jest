@@ -1,11 +1,7 @@
-A Final project for my Article on Building A Facial Recognition Web App with React
+My Article code example on "Practical Guide to testing React Applications with Jest"
 
 Clone this repo
 
 Run npm install
 
 Run npm start
-
-You must add your own API key in the src/App.js file to connect to Clarifai.
-
-You can grab Clarifai API key at https://www.clarifai.com/
