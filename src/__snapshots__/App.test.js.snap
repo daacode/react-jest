@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<Fragment>
+  <h1>
+    Display Active Users Account Details
+  </h1>
+  <h3>
+    Fetching Users...
+  </h3>
+</Fragment>
+`;

@@ -23,18 +23,19 @@ class App extends Component {
   componentDidMount() {
     this.fetchUsers();
   }
+
   render() {
     const { isLoading, users, error } = this.state;
     return (
       <React.Fragment>
-        <h1>Random User</h1>
+        <h1>Display Active Users Account Details</h1>
         {error ? <p>{error.message}</p> : null}
         {!isLoading ? (
           users.map((user) => {
             return <Account key={user.username} user={user} />;
           })
         ) : (
-          <h3>Loading...</h3>
+          <h3>Fetching Users...</h3>
         )}
       </React.Fragment>
     );
